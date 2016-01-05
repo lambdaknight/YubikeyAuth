@@ -12,16 +12,26 @@
 		BF3E9B0B187FB3950084477F /* HYubiKeyAuth.c in Sources */ = {isa = PBXBuildFile; fileRef = BF3E9B0A187FB3950084477F /* HYubiKeyAuth.c */; };
 		BF3E9B0D1880772E0084477F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B0C1880772E0084477F /* Security.framework */; };
 		BF3E9B0F1880774F0084477F /* OpenDirectory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B0E1880774F0084477F /* OpenDirectory.framework */; };
-		BF3E9B1D188095900084477F /* libHSHYubiKeyFFI-0.1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B1C188095900084477F /* libHSHYubiKeyFFI-0.1.0.0.a */; };
-		BF3E9B1F188095B30084477F /* libHShyubikey-0.1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B1E188095B30084477F /* libHShyubikey-0.1.0.0.a */; };
-		BF3E9B21188095C90084477F /* libHSAES-0.2.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B20188095C90084477F /* libHSAES-0.2.8.a */; };
-		BF3E9B23188096780084477F /* libHSrts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B22188096780084477F /* libHSrts.a */; };
-		BF3E9B25188096C60084477F /* libHSbase-4.6.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B24188096C60084477F /* libHSbase-4.6.0.1.a */; };
-		BF3E9B27188096F30084477F /* libHSbytestring-0.10.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B26188096F30084477F /* libHSbytestring-0.10.0.2.a */; };
-		BF3E9B29188097340084477F /* libHSghc-prim-0.3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B28188097340084477F /* libHSghc-prim-0.3.0.0.a */; };
-		BF3E9B2B188097630084477F /* libHSinteger-gmp-0.5.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B2A188097630084477F /* libHSinteger-gmp-0.5.0.0.a */; };
-		BF3E9B2D188097B10084477F /* libHSword24-1.0.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B2C188097B10084477F /* libHSword24-1.0.6.a */; };
-		BF3E9B2F188097B70084477F /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3E9B2E188097B70084477F /* libiconv.dylib */; };
+		BFD97F151C3C379D00CEC5DC /* libHSAES-0.2.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F011C3C379D00CEC5DC /* libHSAES-0.2.9.a */; };
+		BFD97F161C3C379D00CEC5DC /* libHScereal-0.5.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F021C3C379D00CEC5DC /* libHScereal-0.5.1.0.a */; };
+		BFD97F171C3C379D00CEC5DC /* libHSdataenc-0.12.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F031C3C379D00CEC5DC /* libHSdataenc-0.12.a */; };
+		BFD97F181C3C379D00CEC5DC /* libHShslogger-1.2.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F041C3C379D00CEC5DC /* libHShslogger-1.2.9.a */; };
+		BFD97F191C3C379D00CEC5DC /* libHSHUnit-1.3.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F051C3C379D00CEC5DC /* libHSHUnit-1.3.0.0.a */; };
+		BFD97F1A1C3C379D00CEC5DC /* libHShyubikey-0.1.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F061C3C379D00CEC5DC /* libHShyubikey-0.1.0.0.a */; };
+		BFD97F1B1C3C379D00CEC5DC /* libHSMissingH-1.3.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F071C3C379D00CEC5DC /* libHSMissingH-1.3.0.1.a */; };
+		BFD97F1C1C3C379D00CEC5DC /* libHSmonads-tf-0.1.0.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F081C3C379D00CEC5DC /* libHSmonads-tf-0.1.0.2.a */; };
+		BFD97F1D1C3C379D00CEC5DC /* libHSmtl-2.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F091C3C379D00CEC5DC /* libHSmtl-2.2.1.a */; };
+		BFD97F1E1C3C379D00CEC5DC /* libHSnetwork-2.6.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0A1C3C379D00CEC5DC /* libHSnetwork-2.6.2.1.a */; };
+		BFD97F1F1C3C379D00CEC5DC /* libHSold-locale-1.0.0.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0B1C3C379D00CEC5DC /* libHSold-locale-1.0.0.7.a */; };
+		BFD97F201C3C379D00CEC5DC /* libHSold-time-1.1.0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0C1C3C379D00CEC5DC /* libHSold-time-1.1.0.3.a */; };
+		BFD97F211C3C379D00CEC5DC /* libHSparsec-3.1.9.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0D1C3C379D00CEC5DC /* libHSparsec-3.1.9.a */; };
+		BFD97F221C3C379D00CEC5DC /* libHSrandom-1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0E1C3C379D00CEC5DC /* libHSrandom-1.1.a */; };
+		BFD97F231C3C379D00CEC5DC /* libHSregex-base-0.93.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F0F1C3C379D00CEC5DC /* libHSregex-base-0.93.2.a */; };
+		BFD97F241C3C379D00CEC5DC /* libHSregex-compat-0.95.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F101C3C379D00CEC5DC /* libHSregex-compat-0.95.1.a */; };
+		BFD97F251C3C379D00CEC5DC /* libHSregex-posix-0.95.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F111C3C379D00CEC5DC /* libHSregex-posix-0.95.2.a */; };
+		BFD97F261C3C379D00CEC5DC /* libHStext-1.2.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F121C3C379D00CEC5DC /* libHStext-1.2.2.0.a */; };
+		BFD97F271C3C379D00CEC5DC /* libHStext-format-simple-1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F131C3C379D00CEC5DC /* libHStext-format-simple-1.1.0.a */; };
+		BFD97F281C3C379D00CEC5DC /* libHSword24-1.0.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD97F141C3C379D00CEC5DC /* libHSword24-1.0.7.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,22 +43,26 @@
 		BF3E9B0A187FB3950084477F /* HYubiKeyAuth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HYubiKeyAuth.c; sourceTree = "<group>"; };
 		BF3E9B0C1880772E0084477F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF3E9B0E1880774F0084477F /* OpenDirectory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenDirectory.framework; path = System/Library/Frameworks/OpenDirectory.framework; sourceTree = SDKROOT; };
-		BF3E9B1018808F540084477F /* libHSffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSffi.a; path = "../../../../usr/local/lib/ghc-7.1.20101125/libHSffi.a"; sourceTree = "<group>"; };
-		BF3E9B1218808F7D0084477F /* libHSrts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSrts.a; path = "../../../../usr/local/lib/ghc-7.1.20101125/libHSrts.a"; sourceTree = "<group>"; };
-		BF3E9B14188090D70084477F /* libHSbase-4.3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSbase-4.3.0.0.a"; path = "../../../../usr/local/lib/ghc-7.1.20101125/base-4.3.0.0/libHSbase-4.3.0.0.a"; sourceTree = "<group>"; };
-		BF3E9B16188091930084477F /* libHSarray-0.3.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSarray-0.3.0.2.a"; path = "../../../../usr/local/lib/ghc-7.1.20101125/array-0.3.0.2/libHSarray-0.3.0.2.a"; sourceTree = "<group>"; };
-		BF3E9B18188091AD0084477F /* libHSbase-4.3.0.0_p.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSbase-4.3.0.0_p.a"; path = "../../../../usr/local/lib/ghc-7.1.20101125/base-4.3.0.0/libHSbase-4.3.0.0_p.a"; sourceTree = "<group>"; };
-		BF3E9B1A1880923C0084477F /* libHSrtsmain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSrtsmain.a; path = "../../../../usr/local/lib/ghc-7.1.20101125/libHSrtsmain.a"; sourceTree = "<group>"; };
-		BF3E9B1C188095900084477F /* libHSHYubiKeyFFI-0.1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSHYubiKeyFFI-0.1.0.0.a"; path = "../HYubiKeyFFI/dist/build/libHSHYubiKeyFFI-0.1.0.0.a"; sourceTree = "<group>"; };
-		BF3E9B1E188095B30084477F /* libHShyubikey-0.1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHShyubikey-0.1.0.0.a"; path = "../../.cabal/lib/x86_64-osx-ghc-7.6.3/hyubikey-0.1.0.0/libHShyubikey-0.1.0.0.a"; sourceTree = "<group>"; };
-		BF3E9B20188095C90084477F /* libHSAES-0.2.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSAES-0.2.8.a"; path = "../../.cabal/lib/x86_64-osx-ghc-7.6.3/AES-0.2.8/libHSAES-0.2.8.a"; sourceTree = "<group>"; };
-		BF3E9B22188096780084477F /* libHSrts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHSrts.a; path = "../../../../usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/libHSrts.a"; sourceTree = "<group>"; };
-		BF3E9B24188096C60084477F /* libHSbase-4.6.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSbase-4.6.0.1.a"; path = "../../../../usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/base-4.6.0.1/libHSbase-4.6.0.1.a"; sourceTree = "<group>"; };
-		BF3E9B26188096F30084477F /* libHSbytestring-0.10.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSbytestring-0.10.0.2.a"; path = "../../../../usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/bytestring-0.10.0.2/libHSbytestring-0.10.0.2.a"; sourceTree = "<group>"; };
-		BF3E9B28188097340084477F /* libHSghc-prim-0.3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSghc-prim-0.3.0.0.a"; path = "../../../../usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/ghc-prim-0.3.0.0/libHSghc-prim-0.3.0.0.a"; sourceTree = "<group>"; };
-		BF3E9B2A188097630084477F /* libHSinteger-gmp-0.5.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSinteger-gmp-0.5.0.0.a"; path = "../../../../usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/integer-gmp-0.5.0.0/libHSinteger-gmp-0.5.0.0.a"; sourceTree = "<group>"; };
-		BF3E9B2C188097B10084477F /* libHSword24-1.0.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSword24-1.0.6.a"; path = "../../.cabal/lib/x86_64-osx-ghc-7.6.3/word24-1.0.6/libHSword24-1.0.6.a"; sourceTree = "<group>"; };
-		BF3E9B2E188097B70084477F /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		BFD97F011C3C379D00CEC5DC /* libHSAES-0.2.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSAES-0.2.9.a"; path = "Libraries/libHSAES-0.2.9.a"; sourceTree = "<group>"; };
+		BFD97F021C3C379D00CEC5DC /* libHScereal-0.5.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHScereal-0.5.1.0.a"; path = "Libraries/libHScereal-0.5.1.0.a"; sourceTree = "<group>"; };
+		BFD97F031C3C379D00CEC5DC /* libHSdataenc-0.12.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSdataenc-0.12.a"; path = "Libraries/libHSdataenc-0.12.a"; sourceTree = "<group>"; };
+		BFD97F041C3C379D00CEC5DC /* libHShslogger-1.2.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHShslogger-1.2.9.a"; path = "Libraries/libHShslogger-1.2.9.a"; sourceTree = "<group>"; };
+		BFD97F051C3C379D00CEC5DC /* libHSHUnit-1.3.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSHUnit-1.3.0.0.a"; path = "Libraries/libHSHUnit-1.3.0.0.a"; sourceTree = "<group>"; };
+		BFD97F061C3C379D00CEC5DC /* libHShyubikey-0.1.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHShyubikey-0.1.0.0.a"; path = "Libraries/libHShyubikey-0.1.0.0.a"; sourceTree = "<group>"; };
+		BFD97F071C3C379D00CEC5DC /* libHSMissingH-1.3.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSMissingH-1.3.0.1.a"; path = "Libraries/libHSMissingH-1.3.0.1.a"; sourceTree = "<group>"; };
+		BFD97F081C3C379D00CEC5DC /* libHSmonads-tf-0.1.0.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSmonads-tf-0.1.0.2.a"; path = "Libraries/libHSmonads-tf-0.1.0.2.a"; sourceTree = "<group>"; };
+		BFD97F091C3C379D00CEC5DC /* libHSmtl-2.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSmtl-2.2.1.a"; path = "Libraries/libHSmtl-2.2.1.a"; sourceTree = "<group>"; };
+		BFD97F0A1C3C379D00CEC5DC /* libHSnetwork-2.6.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSnetwork-2.6.2.1.a"; path = "Libraries/libHSnetwork-2.6.2.1.a"; sourceTree = "<group>"; };
+		BFD97F0B1C3C379D00CEC5DC /* libHSold-locale-1.0.0.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSold-locale-1.0.0.7.a"; path = "Libraries/libHSold-locale-1.0.0.7.a"; sourceTree = "<group>"; };
+		BFD97F0C1C3C379D00CEC5DC /* libHSold-time-1.1.0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSold-time-1.1.0.3.a"; path = "Libraries/libHSold-time-1.1.0.3.a"; sourceTree = "<group>"; };
+		BFD97F0D1C3C379D00CEC5DC /* libHSparsec-3.1.9.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSparsec-3.1.9.a"; path = "Libraries/libHSparsec-3.1.9.a"; sourceTree = "<group>"; };
+		BFD97F0E1C3C379D00CEC5DC /* libHSrandom-1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSrandom-1.1.a"; path = "Libraries/libHSrandom-1.1.a"; sourceTree = "<group>"; };
+		BFD97F0F1C3C379D00CEC5DC /* libHSregex-base-0.93.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSregex-base-0.93.2.a"; path = "Libraries/libHSregex-base-0.93.2.a"; sourceTree = "<group>"; };
+		BFD97F101C3C379D00CEC5DC /* libHSregex-compat-0.95.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSregex-compat-0.95.1.a"; path = "Libraries/libHSregex-compat-0.95.1.a"; sourceTree = "<group>"; };
+		BFD97F111C3C379D00CEC5DC /* libHSregex-posix-0.95.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSregex-posix-0.95.2.a"; path = "Libraries/libHSregex-posix-0.95.2.a"; sourceTree = "<group>"; };
+		BFD97F121C3C379D00CEC5DC /* libHStext-1.2.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHStext-1.2.2.0.a"; path = "Libraries/libHStext-1.2.2.0.a"; sourceTree = "<group>"; };
+		BFD97F131C3C379D00CEC5DC /* libHStext-format-simple-1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHStext-format-simple-1.1.0.a"; path = "Libraries/libHStext-format-simple-1.1.0.a"; sourceTree = "<group>"; };
+		BFD97F141C3C379D00CEC5DC /* libHSword24-1.0.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHSword24-1.0.7.a"; path = "Libraries/libHSword24-1.0.7.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +70,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3E9B2F188097B70084477F /* libiconv.dylib in Frameworks */,
-				BF3E9B2D188097B10084477F /* libHSword24-1.0.6.a in Frameworks */,
-				BF3E9B2B188097630084477F /* libHSinteger-gmp-0.5.0.0.a in Frameworks */,
-				BF3E9B29188097340084477F /* libHSghc-prim-0.3.0.0.a in Frameworks */,
-				BF3E9B27188096F30084477F /* libHSbytestring-0.10.0.2.a in Frameworks */,
-				BF3E9B25188096C60084477F /* libHSbase-4.6.0.1.a in Frameworks */,
-				BF3E9B23188096780084477F /* libHSrts.a in Frameworks */,
-				BF3E9B21188095C90084477F /* libHSAES-0.2.8.a in Frameworks */,
-				BF3E9B1F188095B30084477F /* libHShyubikey-0.1.0.0.a in Frameworks */,
-				BF3E9B1D188095900084477F /* libHSHYubiKeyFFI-0.1.0.0.a in Frameworks */,
+				BFD97F151C3C379D00CEC5DC /* libHSAES-0.2.9.a in Frameworks */,
+				BFD97F161C3C379D00CEC5DC /* libHScereal-0.5.1.0.a in Frameworks */,
+				BFD97F171C3C379D00CEC5DC /* libHSdataenc-0.12.a in Frameworks */,
+				BFD97F181C3C379D00CEC5DC /* libHShslogger-1.2.9.a in Frameworks */,
+				BFD97F191C3C379D00CEC5DC /* libHSHUnit-1.3.0.0.a in Frameworks */,
+				BFD97F1A1C3C379D00CEC5DC /* libHShyubikey-0.1.0.0.a in Frameworks */,
+				BFD97F1B1C3C379D00CEC5DC /* libHSMissingH-1.3.0.1.a in Frameworks */,
+				BFD97F1C1C3C379D00CEC5DC /* libHSmonads-tf-0.1.0.2.a in Frameworks */,
+				BFD97F1D1C3C379D00CEC5DC /* libHSmtl-2.2.1.a in Frameworks */,
+				BFD97F1E1C3C379D00CEC5DC /* libHSnetwork-2.6.2.1.a in Frameworks */,
+				BFD97F1F1C3C379D00CEC5DC /* libHSold-locale-1.0.0.7.a in Frameworks */,
+				BFD97F201C3C379D00CEC5DC /* libHSold-time-1.1.0.3.a in Frameworks */,
+				BFD97F211C3C379D00CEC5DC /* libHSparsec-3.1.9.a in Frameworks */,
+				BFD97F221C3C379D00CEC5DC /* libHSrandom-1.1.a in Frameworks */,
+				BFD97F231C3C379D00CEC5DC /* libHSregex-base-0.93.2.a in Frameworks */,
+				BFD97F241C3C379D00CEC5DC /* libHSregex-compat-0.95.1.a in Frameworks */,
+				BFD97F251C3C379D00CEC5DC /* libHSregex-posix-0.95.2.a in Frameworks */,
+				BFD97F261C3C379D00CEC5DC /* libHStext-1.2.2.0.a in Frameworks */,
+				BFD97F271C3C379D00CEC5DC /* libHStext-format-simple-1.1.0.a in Frameworks */,
+				BFD97F281C3C379D00CEC5DC /* libHSword24-1.0.7.a in Frameworks */,
 				BF3E9B0F1880774F0084477F /* OpenDirectory.framework in Frameworks */,
 				BF3E9B0D1880772E0084477F /* Security.framework in Frameworks */,
 				BF3E9AFD187FB35F0084477F /* CoreFoundation.framework in Frameworks */,
@@ -95,22 +119,26 @@
 		BF3E9AFB187FB35F0084477F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF3E9B2E188097B70084477F /* libiconv.dylib */,
-				BF3E9B2C188097B10084477F /* libHSword24-1.0.6.a */,
-				BF3E9B2A188097630084477F /* libHSinteger-gmp-0.5.0.0.a */,
-				BF3E9B28188097340084477F /* libHSghc-prim-0.3.0.0.a */,
-				BF3E9B26188096F30084477F /* libHSbytestring-0.10.0.2.a */,
-				BF3E9B24188096C60084477F /* libHSbase-4.6.0.1.a */,
-				BF3E9B22188096780084477F /* libHSrts.a */,
-				BF3E9B20188095C90084477F /* libHSAES-0.2.8.a */,
-				BF3E9B1E188095B30084477F /* libHShyubikey-0.1.0.0.a */,
-				BF3E9B1C188095900084477F /* libHSHYubiKeyFFI-0.1.0.0.a */,
-				BF3E9B1A1880923C0084477F /* libHSrtsmain.a */,
-				BF3E9B18188091AD0084477F /* libHSbase-4.3.0.0_p.a */,
-				BF3E9B16188091930084477F /* libHSarray-0.3.0.2.a */,
-				BF3E9B14188090D70084477F /* libHSbase-4.3.0.0.a */,
-				BF3E9B1218808F7D0084477F /* libHSrts.a */,
-				BF3E9B1018808F540084477F /* libHSffi.a */,
+				BFD97F011C3C379D00CEC5DC /* libHSAES-0.2.9.a */,
+				BFD97F021C3C379D00CEC5DC /* libHScereal-0.5.1.0.a */,
+				BFD97F031C3C379D00CEC5DC /* libHSdataenc-0.12.a */,
+				BFD97F041C3C379D00CEC5DC /* libHShslogger-1.2.9.a */,
+				BFD97F051C3C379D00CEC5DC /* libHSHUnit-1.3.0.0.a */,
+				BFD97F061C3C379D00CEC5DC /* libHShyubikey-0.1.0.0.a */,
+				BFD97F071C3C379D00CEC5DC /* libHSMissingH-1.3.0.1.a */,
+				BFD97F081C3C379D00CEC5DC /* libHSmonads-tf-0.1.0.2.a */,
+				BFD97F091C3C379D00CEC5DC /* libHSmtl-2.2.1.a */,
+				BFD97F0A1C3C379D00CEC5DC /* libHSnetwork-2.6.2.1.a */,
+				BFD97F0B1C3C379D00CEC5DC /* libHSold-locale-1.0.0.7.a */,
+				BFD97F0C1C3C379D00CEC5DC /* libHSold-time-1.1.0.3.a */,
+				BFD97F0D1C3C379D00CEC5DC /* libHSparsec-3.1.9.a */,
+				BFD97F0E1C3C379D00CEC5DC /* libHSrandom-1.1.a */,
+				BFD97F0F1C3C379D00CEC5DC /* libHSregex-base-0.93.2.a */,
+				BFD97F101C3C379D00CEC5DC /* libHSregex-compat-0.95.1.a */,
+				BFD97F111C3C379D00CEC5DC /* libHSregex-posix-0.95.2.a */,
+				BFD97F121C3C379D00CEC5DC /* libHStext-1.2.2.0.a */,
+				BFD97F131C3C379D00CEC5DC /* libHStext-format-simple-1.1.0.a */,
+				BFD97F141C3C379D00CEC5DC /* libHSword24-1.0.7.a */,
 				BF3E9B0E1880774F0084477F /* OpenDirectory.framework */,
 				BF3E9B0C1880772E0084477F /* Security.framework */,
 				BF3E9AFC187FB35F0084477F /* CoreFoundation.framework */,
@@ -295,21 +323,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/usr/local/lib/ghc-7.1.20101125/include",
+					"/usr/local/lib/ghc-7.10.2/include",
 				);
 				INFOPLIST_FILE = "HYubiKeyAuth/HYubiKeyAuth-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
-					"/usr/local/lib/ghc-7.6.3/**",
-					/Users/eret/Projects/HYubiKeyFFI/dist/build,
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/hyubikey-0.1.0.0",
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/AES-0.2.8",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/base-4.6.0.1",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/bytestring-0.10.0.2",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/ghc-prim-0.3.0.0",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/integer-gmp-0.5.0.0",
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/word24-1.0.6",
+					"/usr/local/lib/ghc-7.10.2/**",
+					"$(PROJECT_DIR)/../hyubikey/dist/build/**",
+					"$(PROJECT_DIR)/../.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/**",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
@@ -325,21 +347,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"/usr/local/lib/ghc-7.1.20101125/include",
+					"/usr/local/lib/ghc-7.10.2/include",
 				);
 				INFOPLIST_FILE = "HYubiKeyAuth/HYubiKeyAuth-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				LIBRARY_SEARCH_PATHS = (
-					"/usr/local/lib/ghc-7.6.3/**",
-					/Users/eret/Projects/HYubiKeyFFI/dist/build,
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/hyubikey-0.1.0.0",
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/AES-0.2.8",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/base-4.6.0.1",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/bytestring-0.10.0.2",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/ghc-prim-0.3.0.0",
-					"/usr/local/Cellar/ghc/7.6.3/lib/ghc-7.6.3/integer-gmp-0.5.0.0",
-					"/Users/eret/.cabal/lib/x86_64-osx-ghc-7.6.3/word24-1.0.6",
+					"/usr/local/lib/ghc-7.10.2/**",
+					"$(PROJECT_DIR)/../hyubikey/dist/build/**",
+					"$(PROJECT_DIR)/../.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/**",
+					"$(PROJECT_DIR)/Libraries",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
